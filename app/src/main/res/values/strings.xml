@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Géo Activité Bédard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Matthieu Hermet</string>
+    <string name="nav_header_subtitle">mhermet@cegepgarneau.ca</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_detail">Détails</string>
+    <string name="details">Aperçu</string>
+    <string name="menu_addPinne">Nouveau point</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">Ok</string>
+    <string name="permImporGeo">Cette permission est importante pour la géolocalisation...</string>
+    <string name="permReq">Permission requise !</string>
+    <string name="impoLocal">Impossible de vous localiser</string>
+    <string name="ici">Je suis ici !</string>
+</resources>

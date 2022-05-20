@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.garneau.demo_tp3.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_nav_home_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.garneau.demo_tp3.ui.map.MapsFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.garneau.demo_tp3.ui.details.DetailsFragment"
+        android:label="details_fragment"
+        tools:layout="@layout/details_fragment">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
